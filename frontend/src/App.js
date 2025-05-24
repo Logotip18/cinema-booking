@@ -13,8 +13,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Добро пожаловать в Cinema Booking</h1>
-      <p>Сообщение от бэкенда: {message || 'Загрузка...'}</p>
+      <div className="container mt-5">
+        <h1 className="mb-4">Добро пожаловать в Cinema Booking</h1>
+        <p className="lead">Сообщение от бэкенда: {message || 'Загрузка...'}</p>
+        <button className="btn btn-primary">Тестовая кнопка Bootstrap</button>
+      </div>
     </div>
   );
 }
